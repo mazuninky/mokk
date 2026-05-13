@@ -1,0 +1,12 @@
+# Editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Agent tooling — repo policy (PROJECT.md §7)
+.claude/
+.cursor/
+
+# Rust build artifacts (added preemptively; the workspace lands in MOK-001)
+/target
